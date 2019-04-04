@@ -43,8 +43,8 @@ fn main() {
         if arg.contains("..") {
             if let Some(v) = parse_range(&arg) {
                 println!("{}", v);
+                continue;
             }
-            continue;
         }
 
         for c in arg.chars() {
