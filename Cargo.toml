@@ -1,0 +1,9 @@
+[package]
+name = "uchr"
+description = "translate char values to the characters themselves, and vice versa"
+version = "0.0.1"
+authors = ["George Kaplan <george@georgekaplan.xyz>"]
+edition = "2018"
+license = "GPL-3.0"
+repository = "https://github.com/g-s-k/uchr"
+readme = "./README.md"
